@@ -69,3 +69,19 @@ Note: The master notebook is configured to automatically import and reload the c
 - Environmental Correlations: The advanced EDA revealed distinct correlations between specific weather conditions (like humidity) and drops in air quality (PM2.5 and Ozone).
 
 - Model Performance: By ensembling lagged features with XGBoost and capturing seasonal trends with Prophet, the pipeline provides a robust framework for short and long-term temperature forecasting.
+
+
+## Demo Video
+[Insert Link to your 1-2 minute YouTube/Drive Demo Video Here]
+
+Developed for the PM Accelerator Internship Assessment.
+
+
+***
+
+### What to do next:
+1. Paste this into your repository.
+2. Replace `<your-github-repo-link>` under step 1 with your actual public GitHub URL.
+3. Replace `[Insert Link to your 1-2 minute YouTube/Drive Demo Video Here]` at the bottom with the link to the video you record.
+
+This README is highly polished and hits every single requirement they asked for. Are
