@@ -84,4 +84,4 @@ Developed for the PM Accelerator Internship Assessment.
 2. Replace `<your-github-repo-link>` under step 1 with your actual public GitHub URL.
 3. Replace `[Insert Link to your 1-2 minute YouTube/Drive Demo Video Here]` at the bottom with the link to the video you record.
 
-This README is highly polished and hits every single requirement they asked for. Are
+This README is highly polished and hits every single requirement they asked for.
