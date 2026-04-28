@@ -2,14 +2,14 @@
 
 > **PM Accelerator Mission:** To help international professionals transition quickly into product management, secure top offers from top-tier companies, and become product leaders.
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains an end-to-end data science pipeline designed to forecast global weather trends. Built for the PM Accelerator technical assessment, this project goes beyond basic exploratory analysis by implementing **Advanced Assessment** requirements, including Explainable AI (SHAP), Time-Series Forecasting (Prophet), and Automated Anomaly Detection.
 
 The goal of this project is to showcase how raw, multi-dimensional weather data can be transformed into actionable, product-ready insights for decision-makers.
 
 ---
 
-## 🚀 Advanced Techniques Implemented
+##  Advanced Techniques Implemented
 
 * **Explainable AI (Feature Importance):** Instead of standard feature weighting, this pipeline uses **SHAP (SHapley Additive exPlanations)** to unpack the "black box" of the XGBoost model. It explains exactly *how* variables like humidity and wind speed drive temperature forecasts.
 * **Time-Series Forecasting:** Integrated Facebook's **Prophet** library to handle daily seasonality, weekly trends, and long-term climate patterns for specific locations.
@@ -39,7 +39,7 @@ weather-forecast-assessment/
 └── setup_data.py                      # Automated Kaggle data ingestion script
 ```
 
-# Setup and Installation
+## Setup and Installation
 To run this project locally and reproduce the results, follow these steps:
 1. Clone the repository:
 ```
@@ -63,7 +63,7 @@ jupyter notebook
 ```
 Note: The master notebook is configured to automatically import and reload the custom modules from the src/ directory.
 
-# Key Insights & Findings
+## Key Insights & Findings
 - Anomaly Detection: The Isolation Forest successfully flagged ~2% of the dataset as extreme weather anomalies, preventing these outliers from skewing the standard forecast models.
 
 - Environmental Correlations: The advanced EDA revealed distinct correlations between specific weather conditions (like humidity) and drops in air quality (PM2.5 and Ozone).
