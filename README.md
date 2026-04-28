@@ -18,7 +18,7 @@ The goal of this project is to showcase how raw, multi-dimensional weather data 
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project follows a modular, production-ready architecture rather than a single monolithic notebook.
 
