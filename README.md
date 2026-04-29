@@ -1,4 +1,4 @@
-﻿# Weather Trend Forecasting - PM Accelerator Tech Assessment
+﻿# Weather Trend Forecasting 
 
 > **PM Accelerator Mission:** To help international professionals transition quickly into product management, secure top offers from top-tier companies, and become product leaders.
 
