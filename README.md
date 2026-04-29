@@ -28,6 +28,8 @@ weather-forecast-assessment/
 │   └── global_weather_repository.csv  # Auto-downloaded via setup_data.py
 ├── notebooks/
 │   └── exploration_and_modeling.ipynb # The master notebook containing all EDA and models
+├── report/
+│   └── Data Science Tech Assessment_ Weather Trend Forecasting.pdf
 ├── src/                               # Modular Python source code
 │   ├── __init__.py
 │   ├── preprocess.py                  # Data cleaning & Isolation Forest anomaly detection
