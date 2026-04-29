@@ -23,13 +23,13 @@ The goal of this project is to showcase how raw, multi-dimensional weather data 
 The project follows a modular, production-ready architecture rather than a single monolithic notebook.
 
 ```text
-weather-forecast-assessment/
+weather-forecast/
 ├── data/
 │   └── global_weather_repository.csv  # Auto-downloaded via setup_data.py
 ├── notebooks/
 │   └── exploration_and_modeling.ipynb # The master notebook containing all EDA and models
 ├── report/
-│   └── Data Science Tech Assessment_ Weather Trend Forecasting.pdf
+│   └── Data Science Tech Assessment_ Weather Trend Forecasting.pdf # Detailed documentation of the project
 ├── src/                               # Modular Python source code
 │   ├── __init__.py
 │   ├── preprocess.py                  # Data cleaning & Isolation Forest anomaly detection
