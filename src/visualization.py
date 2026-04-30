@@ -3,7 +3,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 def plot_spatial_weather(df):
-    """Advanced Spatial Analysis Map."""
     fig = px.scatter_geo(df, 
                          lat='latitude', 
                          lon='longitude', 
@@ -15,7 +14,6 @@ def plot_spatial_weather(df):
     return fig
 
 def plot_air_quality_correlation(df):
-    """Advanced Environmental Impact Correlation."""
     aq_cols = [
         'air_quality_PM2.5', 
         'air_quality_Carbon_Monoxide', 
@@ -24,7 +22,6 @@ def plot_air_quality_correlation(df):
         'humidity'
     ]
     corr = df[aq_cols].corr()
-    
     plt.figure(figsize=(8, 6))
     sns.heatmap(corr, annot=True, cmap='RdBu_r', center=0, fmt=".2f")
     plt.title("Environmental Impact: Air Quality vs Weather")
